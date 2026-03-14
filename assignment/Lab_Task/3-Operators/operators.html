@@ -1,0 +1,39 @@
+<!-- Task:
+    • Create a JavaScript program to perform the following:
+    • Add, subtract, multiply, and divide two numbers using arithmetic operators.
+    • Use comparison operators to check if two numbers are equal and if
+    onenumber is greater than the other.
+    • Use logical operators to check if both conditions (e.g., a > 10and b < 5)are
+    true. -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <script>
+
+            let a = Number(prompt("Enter first number:"));
+            let b = Number(prompt("Enter second numbr"));
+
+                document.write("Arithmetic operators.");
+                document.write("Addition: " + (a + b) + "<br>");
+                document.write("Subtraction: " + (a - b) + "<br>");
+                document.write("Multiplication: " + (a * b) + "<br>");
+                document.write("Division: " + (a / b) + "<br><br>");
+                
+                document.write("Comparison operators ");
+                document.write("Are both numbers equal? " + (a == b) + "<br>");
+                document.write("Is first number greater than second? " + (a > b) + "<br><br>");
+
+
+                document.write("logical operators");
+                document.write("Are both conditions true (a > 10 AND b < 5)? " + (a > 10 && b < 5));
+
+        </script>
+    </body>
+    </html>
